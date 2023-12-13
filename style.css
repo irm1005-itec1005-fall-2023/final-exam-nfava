@@ -67,3 +67,142 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+/*
+ * HEADER STYLES
+ */
+ header {
+  background-color: #0c0a3e;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/*
+ * MAIN SECTION STYLES
+ */
+main {
+  padding: 1.5rem 0;
+}
+
+/*
+ * HERO SECTION STYLES
+ */
+#hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#hero h3 {
+  color: #0c0a3e;
+}
+
+#hero p {
+  color: #797979;
+}
+
+/*
+ * SKILLS SECTION STYLES
+ */
+#skills {
+  margin-top: 2rem;
+}
+
+#skills ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#skills li {
+  margin: 0 1rem;
+  color: #0c0a3e;
+}
+
+/*
+ * ABOUT ME SECTION STYLES
+ */
+#about {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+/*
+ * MY WORK SECTION STYLES
+ */
+#work {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.work-item {
+  margin: 1rem 0;
+}
+
+.work-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+/*
+ * CONTACT ME SECTION STYLES
+ */
+#contact {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/*
+ * FOOTER STYLES
+ */
+footer {
+  background-color: #0c0a3e;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/*
+ * MEDIA QUERY FOR RESPONSIVENESS
+ */
+@media screen and (min-width: 800px) {
+  header a {
+    margin-left: 0;
+    display: block;
+    margin-top: 10px;
+  }
+
+  #hero {
+    margin-bottom: 4rem;
+  }
+
+  #skills ul {
+    margin-top: 2rem;
+  }
+}
