@@ -114,21 +114,27 @@ main {
 /*
  * SKILLS SECTION STYLES
  */
-#skills {
-  margin-top: 2rem;
+ #skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #skills ul {
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-top: 1rem;
 }
 
 #skills li {
-  margin: 0 1rem;
-  color: #0c0a3e;
+  margin: 5px; /* Adjust the margin as needed */
+  padding: 10px;
+  border: 1px solid #ccc; /* Add a border for the grid effect */
+  border-radius: 5px; /* Optional: Add rounded corners */
 }
+
 
 /*
  * ABOUT ME SECTION STYLES
