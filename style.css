@@ -67,7 +67,24 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
-/*
+ .contact-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #2980b9;
+}
+
+ /*
  * HEADER STYLES
  */
  header {
