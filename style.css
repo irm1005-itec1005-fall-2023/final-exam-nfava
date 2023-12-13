@@ -119,6 +119,9 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+#skills h4 {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
 
 #skills ul {
   list-style: none;
