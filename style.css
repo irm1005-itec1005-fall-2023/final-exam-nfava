@@ -173,7 +173,12 @@ main {
 /*
  * MY WORK SECTION STYLES
  */
- #work {
+ #work-container {
+  background-color: #f0f0f0; /* Set the background color of the container */
+  padding: 20px; /* Add padding to the container */
+}
+
+#work {
   text-align: center;
 }
 
@@ -182,7 +187,7 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px; /* Adjust the gap between items */
   max-width: 800px; /* Adjust the maximum width as needed */
-  margin: 20px auto; /* Center the grid and add margin for spacing */
+  margin: 0 auto; /* Center the grid within the container */
 }
 
 .work-item {
@@ -194,6 +199,9 @@ main {
   height: auto;
   border-radius: 5px;
 }
+
+/* Add more styles as needed */
+
 
 /* Add more styles as needed */
 
