@@ -191,7 +191,7 @@ footer img {
 /*
  * MEDIA QUERY FOR RESPONSIVENESS
  */
-@media screen and (min-width: 800px) {
+ @media (max-width: 768px) {
   header a {
     margin-left: 0;
     display: block;
