@@ -173,21 +173,30 @@ main {
 /*
  * MY WORK SECTION STYLES
  */
-#work {
+ #work {
   text-align: center;
-  margin-top: 2rem;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; /* Adjust the gap between items */
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 20px auto; /* Center the grid and add margin for spacing */
 }
 
 .work-item {
-  margin: 1rem 0;
+  text-align: center;
 }
 
 .work-item img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
-  margin-bottom: 0.5rem;
+  border-radius: 5px;
 }
+
+/* Add more styles as needed */
+
 
 /*
  * CONTACT ME SECTION STYLES
