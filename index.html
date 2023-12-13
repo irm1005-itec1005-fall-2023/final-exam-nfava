@@ -26,100 +26,75 @@
 </head>
 
 <body>
-
-  <!--
-
-    FINAL EXAM CONTENT
-
-    ALL OF THE CONTENT BELOW HAS BEEN PROVIDED FOR YOU SO
-    THAT YOU CAN FOCUS ON THE HTML STRUCTURE AND SEMANTICS.
-
-    ---------------------------------------------
-
-    # HEADER SECTION
-
-    Site Header (hidden text - not visible on screen)
-    Amy's Web Development Agency Logo (<- image alt text <- ./images/logo/logo-light.svg)
-    Contact Us
-
-    # MAIN SECTION
-
-    ## HERO SECTION
-
-    Amy's Web Development Agency (hidden text - not visible on screen)
-    Web Development Solutions Made Easy
-    Crafting Digital Dreams: Transforming Code into Captivating Experiences - Your Vision, My Expertise.
+  
 
 
-    ## SKILLS SECTION
 
-    My Skills (hidden text - not visible on screen)
-    Web Development
-    UI/UX
-    CSS
-    JavaScript
-    HTML
-    GitHub
+ <!-- Header Section -->
+ <header class="hidden">
+  <img src="./images/logo/logo-light.svg" alt="Amy's Web Development Agency Logo" />
+  <a href="#contact">Contact Us</a>
+</header>
 
-    ## ABOUT ME SECTION
+<!-- Main Section -->
+<main>
 
-    About me (hidden text - not visible on screen)
-    Picture of Amy's in business atire with a pink background (<- image alt text <- ./images/about/about.jpg)
+  <!-- Hero Section -->
+  <section id="hero">
+    <h2 class="hidden">Amy's Web Development Agency</h2>
+    <h3>Web Development Solutions Made Easy</h3>
+    <p>Crafting Digital Dreams: Transforming Code into Captivating Experiences - Your Vision, My Expertise.</p>
+  </section>
 
-    Hey, I'm Amy. Are you ready to level up your web project?
+  <!-- Skills Section -->
+  <section id="skills" class="hidden">
+    <h4 class="hidden">My Skills</h4>
+    <ul>
+      <li>Web Development</li>
+      <li>UI/UX</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>GitHub</li>
+    </ul>
+  </section>
 
-    I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+  <!-- About Me Section -->
+  <section id="about">
+    <h5 class="hidden">About me</h5>
+    <img src="./images/about/about.jpg" alt="Amy's Picture" />
+    <p>Hey, I'm Amy. Are you ready to level up your web project?</p>
+    <p>I'm a web developer based in Ottawa, Canada. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+    <p>Contact me</p>
+  </section>
 
-    Contact me
-
-    ## MY WORK SECTION
-
-    My Work
-
-    Screenshot of Tutorial Exercise 03 (<- image alt text <- ./images/work/work-1.png)
-    Tutorial Exercise 03
-    HTML
-    CSS
-
-    Screenshot of Tutorial Exercise 05 (<- image alt text <- ./images/work/work-2.png)
-    Tutorial Exercise 05
-    HTML
-    CSS
-
-    Screenshot of Tutorial Exercise 07 (<- image alt text <- ./images/work/work-3.png)
-    Tutorial Exercise 07
-    HTML
-    CSS
-
-    Screenshot of Tutorial Exercise 09 (<- image alt text <- ./images/work/work-4.png)
-    Tutorial Exercise 09
-    HTML
-    CSS
-    JavaScript
-
-    Book a call with me
-
-    ## CONTACT ME SECTION
-
-    Excited to chat! Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!"
-
-    Contact Me
-
-    ## FOOTER SECTION
-
-    Site Footer (hidden text - not visible on screen)
-
-    Amy's Web Development Agency Logo (<- image alt text <- ./images/logo/logo-dark.svg)
-    © 2023 Amy's Web Development Agency
-
-  -->
-
-  <main>
-    <div class="page-container">
-      <h1>Complete Your Final Exam Here</h1>
+  <!-- My Work Section -->
+  <section id="work">
+    <h6>My Work</h6>
+    <div class="work-item">
+      <img src="./images/work/work-1.png" alt="Tutorial Exercise 03" />
+      <p>Tutorial Exercise 03</p>
+      <p>HTML CSS</p>
     </div>
-  </main>
+    <!-- Repeat the above work-item structure for each project -->
 
+    <p>Book a call with me</p>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact">
+    <h7 class="hidden">Excited to chat!</h7>
+    <p>Whether you have a project in mind or just want to explore possibilities, let's connect. Use the form below to suggest a time, and I'll reach out to confirm. Can't wait to discuss your ideas!</p>
+    <p>Contact Me</p>
+  </section>
+
+</main>
+
+<!-- Footer Section -->
+<footer class="hidden">
+  <img src="./images/logo/logo-dark.svg" alt="Amy's Web Development Agency Logo" />
+  <p>&copy; 2023 Amy's Web Development Agency</p>
+</footer>
 
 </body>
 </html>
